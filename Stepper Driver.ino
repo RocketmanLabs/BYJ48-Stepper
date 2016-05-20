@@ -27,7 +27,7 @@ void rotate(float rotations) {
 
 int phase = 0;
 byte phases[] = { 1, 3, 2, 6, 4, 12, 8, 9 };
-long lastutime;
+
 void rotate_steps(int steps)
 {
   int dir = (steps > 0) - (steps < 0);
